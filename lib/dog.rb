@@ -15,12 +15,12 @@ class Dog
     "#{@first_name} #{@last_name}".strip
   end
   
-  def breed=(breed)
-    @breed = last_name
+  def breed=(new_breed)
+    @breed = new_breed
   end
  
   def breed
-    "#{@first_name} #{@last_name}".strip
+    @breed
   end
  
 end
