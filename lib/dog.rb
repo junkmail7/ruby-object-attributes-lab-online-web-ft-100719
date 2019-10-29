@@ -14,5 +14,13 @@ class Dog
   def name
     "#{@first_name} #{@last_name}".strip
   end
+  
+  def breed=(breed)
+    @breed = last_name
+  end
+ 
+  def breed
+    "#{@first_name} #{@last_name}".strip
+  end
  
 end
